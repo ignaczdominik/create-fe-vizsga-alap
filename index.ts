@@ -4,6 +4,7 @@ import * as fs from 'node:fs'
 import * as path from 'node:path'
 
 import minimist from 'minimist'
+// @ts-ignore
 import prompts from 'prompts'
 import { red, green, bold } from 'kolorist'
 
@@ -36,11 +37,7 @@ function canSkipEmptying(dir: string) {
   if (files.length === 0) {
     return true
   }
-  if (files.length === 1 && files[0] === '.git') {
-    return true
-  }
-
-  return false
+  return files.length === 1 && files[0] === '.git'
 }
 
 function emptyDir(dir) {

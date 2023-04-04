@@ -1,10 +1,10 @@
 {
-  "name": "create-vue-alap-idb",
-  "version": "1.23.3",
+  "name": "create-fe-vizsga",
+  "version": "23.04.04",
   "description": "An easy way to start a Vue project",
   "type": "module",
   "bin": {
-    "create-vue": "outfile.cjs"
+    "create-fe-vizsga": "outfile.cjs"
   },
   "files": [
     "outfile.cjs",
@@ -24,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ignaczdominik/create-njit-vue.git"
+    "url": "git+https://github.com/ignaczdominik/create-fe-vizsga.git"
   },
   "keywords": [],
   "author": "Ignácz Dominik Bence <i.dominik+npm@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ignaczdominik/create-njit-vue/issues"
+    "url": "https://github.com/ignaczdominik/create-fe-vizsga/issues"
   },
-  "homepage": "https://github.com/ignaczdominik/create-njit-vue#readme",
+  "homepage": "https://github.com/ignaczdominik/create-fe-vizsga#readme",
   "devDependencies": {
     "@types/eslint": "^8.21.1",
     "@types/node": "^18.14.2",
