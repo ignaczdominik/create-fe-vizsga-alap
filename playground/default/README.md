@@ -1,6 +1,6 @@
-# Vue alap | 2023.3
+# Frontend vizsga alap | 2023.5
 
-> Az alap tartalmaz minden olyan csomagot amely az órai feladatok elkészítéséhez szükséges.
+> Az alap tartalmaz minden olyan csomagot amely a vizsga teljesítéséhez szükséges.
 
 ## Tartalom {#content}
 
